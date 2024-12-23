@@ -31,6 +31,8 @@
 }
 .card-list .card p{
     position: absolute;
+    text-decoration: none;
+    color: aliceblue;
     bottom: 10px;
     right: 10px;
 }
