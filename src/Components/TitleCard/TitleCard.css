@@ -16,8 +16,8 @@
     
 }
 .card-list img{
-    /* width: 240px; */
-    width: 100%; /* Makes sure the image fills the card width */
+     /* width: 200px; */
+    width: 200px; /*Makes sure the image fills the card width */
     height: 100%; /* Ensures the image fills the card's height */
     object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the area */
     object-position: center; 
@@ -25,6 +25,7 @@
     border-radius: 4px;
     gap: 10px;
     cursor: pointer;
+    /* font-size: 200px; */
 }
 .card-list .card{
     position: relative;
@@ -35,4 +36,35 @@
     color: aliceblue;
     bottom: 10px;
     right: 10px;
+}
+@media(max-width:800px){
+    .Titlecard{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .Titlecard h2{
+        font-size: 20px;
+    }
+    .card-list img{
+        width: 200px;
+    }
+    .card-list p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:500px){
+    .Titlecard{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .Titlecard h2{
+        font-size: 15px;
+    }
+    .card-list img{
+        width: 165px;
+    }
+    .card-list p{
+        font-size: 10px;
+    }
 }
